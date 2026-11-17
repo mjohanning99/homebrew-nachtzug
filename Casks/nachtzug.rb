@@ -1,13 +1,13 @@
-# Nachtzug, a DAW made for beginners: https://mjohanning99.github.io/nachtzug/
+# Nachtzug, make electronic music without knowing any music theory: https://nachtzugmusic.com/
 #   brew install mjohanning99/nachtzug/nachtzug
 cask "nachtzug" do
-  version "0.3.4"
-  sha256 "ccdf929cf438a8afd144ea1a7d953fc4ce4e15645384efa59396bc14b24359e9"
+  version "0.3.5"
+  sha256 "a09c5a6312ef5a72f3f208f98c6b0cf91e4377df999f01a1a6c0fe3b404e9874"
 
   url "https://github.com/mjohanning99/nachtzug/releases/download/v#{version}/Nachtzug-macOS.dmg"
   name "Nachtzug"
-  desc "DAW made for beginners"
-  homepage "https://mjohanning99.github.io/nachtzug/"
+  desc "Make electronic music, such as acid or Berlin School, without music theory"
+  homepage "https://nachtzugmusic.com/"
 
   livecheck do
     url :url
