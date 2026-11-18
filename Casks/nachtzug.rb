@@ -1,8 +1,8 @@
 # Nachtzug, make electronic music without knowing any music theory: https://nachtzugmusic.com/
 #   brew install mjohanning99/nachtzug/nachtzug
 cask "nachtzug" do
-  version "0.3.5"
-  sha256 "a09c5a6312ef5a72f3f208f98c6b0cf91e4377df999f01a1a6c0fe3b404e9874"
+  version "0.4.1"
+  sha256 "45f4829976ae080b4fd0d46d57bcfa04869dd89a3284547e9d91995209311b6a"
 
   url "https://github.com/mjohanning99/nachtzug/releases/download/v#{version}/Nachtzug-macOS.dmg"
   name "Nachtzug"
